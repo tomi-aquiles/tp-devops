@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vapers Online - Tu tienda de Vapers</title>
+  <link rel="icon" href="images/icono.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+  <header>
+    <nav class="navbar is-primary " role="navigation" aria-label="main navigation">
+      <div id="navbarItems" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">Inicio</a>
+          <a class="navbar-item" href="productos.html">Productos</a>
+          <a class="navbar-item" href="contacto.html">Contacto</a>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <button class="button is-primary" id="cartButton">
+                <a href="carrito.html" style="color: inherit; text-decoration: none;">
+                  <span class="icon">
+                    <i class="fas fa-shopping-cart"></i>
+                  </span>
+                  <span>Carrito</span>
+                  <span id="cartItemCount" class="tag is-primary">0</span>
+                </a>
+              </button>
+              <button class="button is-primary" id="loginButton">
+                <span class="icon">
+                  <i class="fas fa-user-circle"></i>
+                </span>
+                <a href="login.html" style="color: inherit; text-decoration: none;">Iniciar Sesión</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="has-text-centered">
+          <h1 class="title">Bienvenido a Vapers Online</h1>
+        </div>
+        <div class="notification is-primary is-light">
+          <button id="deleteButton" class="delete"></button>
+          Recuerda que aquí <strong>NUNCA</strong> te pediremos datos personales antes de realizar una transacción. Para
+          leer la política y privacidad <a href="politicaPrivacidad.html">Click Aqui.</a>
+        </div>
+      </div>
+    </section>
+  </main>
+      
+  <h2 class="title is-3 has-text-centered has-text-primary mb-4">Promociones Destacadas</h2>
+
+
+        <div class="columns">
+          <!-- Producto 1 -->
+          <div class="column is-one-quarter">
+            <article class="card">
+              <figure class="card-image image is-4by3">
+                <img class="lazy" data-src="images/pods/pod4.jpg" alt="Producto 1">
+              </figure>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Vaper Modelo 1</p>
+                    <p class="subtitle is-6"><del>$49.99</del> <span class="has-text-danger">$30.99</span></p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Descripción del producto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dolor et
+                  odio
+                  blandit iaculis. Nunc scelerisque diam et felis finibus tempor.
+                </div>
+
+                <div class="buttons">
+                  <button class="button is-primary" id="cartButton">Agregar al carrito</button>
+
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- Producto 2 -->
+          <div class="column is-one-quarter">
+            <article class="card">
+              <figure class="card-image image is-4by3">
+                <img class="lazy" data-src="images/pods/pod2.webp" alt="Producto 1">
+              </figure>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Vaper Modelo 2</p>
+                    <p class="subtitle is-6"><del>$59.99</del> <span class="has-text-danger">$35.99</span></p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Descripción del producto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dolor et
+                  odio
+                  blandit iaculis. Nunc scelerisque diam et felis finibus tempor.
+                </div>
+
+                <div class="buttons">
+                  <button class="button is-primary">Agregar al carrito</button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- Producto 3 -->
+          <div class="column is-one-quarter">
+            <article class="card">
+              <figure class="card-image image is-4by3">
+                <img class="lazy" data-src="images/Rdta/rt3.jpg" alt="Producto 1">
+              </figure>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Vaper Modelo 2</p>
+                    <p class="subtitle is-6"><del>$19.99</del> <span class="has-text-danger">$10.99</span></p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Descripción del producto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dolor et
+                  odio
+                  blandit iaculis. Nunc scelerisque diam et felis finibus tempor.
+                </div>
+
+                <div class="buttons">
+                  <button class="button is-primary">Agregar al carrito</button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- Producto 4 -->
+          <div class="column is-one-quarter">
+            <article class="card">
+              <figure class="card-image image is-4by3">
+                <img class="lazy" data-src="images/VapersElectronicos/vaper5.jpg" alt="Producto 1">
+              </figure>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Vaper Modelo 3</p>
+                    <p class="subtitle is-6"><del>69.99</del> <span class="has-text-danger">$59.99</span></p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Descripción del producto 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dolor et
+                  odio
+                  blandit iaculis. Nunc scelerisque diam et felis finibus tempor.
+                </div>
+
+                <div class="buttons">
+                  <button class="button is-primary">Agregar al carrito</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Vapers Online</strong> &copy; 2023. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+  <script src="scripts.js"></script>
+  <script src="optimization.js"></script> <!-- Nuestro nuevo script de optimización -->
+
+</body>
+
+</html>
