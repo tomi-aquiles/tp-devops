@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vapers Online - Tu tienda de Vapers</title>
+  <link rel="icon" href="images/icono.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+  <header>
+    <nav class="navbar is-primary " role="navigation" aria-label="main navigation">
+      <div id="navbarItems" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">Inicio</a>
+          <a class="navbar-item" href="productos.html">Productos</a>
+          <a class="navbar-item" href="contacto.html">Contacto</a>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <button class="button is-primary" id="cartButton">
+                <span class="icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+                <span>Carrito</span>
+                <span id="cartItemCount" class="tag is-primary">0</span>
+              </button>
+              <button class="button is-primary" id="loginButton">
+                <span class="icon">
+                  <i class="fas fa-user-circle"></i>
+                </span>
+                <a href="login.html" style="color: inherit; text-decoration: none;">Iniciar Sesión</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+<main>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Contacto</h1>
+        <form>
+          <div class="field">
+            <label class="label" for="nombre">Nombre</label>
+            <input id="nombre" class="input" type="text" placeholder="Ingrese su nombre">
+          </div>
+
+          <div class="field">
+            <label class="label" for="correo">Correo electrónico</label>
+            <input id="correo" class="input" type="email" placeholder="Ingrese su correo electrónico">
+          </div>
+
+          <div class="field">
+            <label class="label" for="mensaje">Mensaje</label>
+            <textarea id="mensaje" class="textarea" placeholder="Ingrese su mensaje"></textarea>
+          </div>
+
+          <div class="field is-minimal-margin">
+            <button type="submit" class="button is-primary">Enviar</button>
+            <button type="reset" class="button is-link is-danger">Cancelar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <!-- Contenido del pie de página -->
+  </footer>
+</body>
+
+</html>
