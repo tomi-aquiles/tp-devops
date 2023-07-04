@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vapers Online - Tu tienda de Vapers</title>
+  <link rel="icon" href="images/icono.jpg">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="navbar-collapse" id="navbarItems">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+
+        <div class="navbar-nav ml-auto">
+          <div class="nav-item">
+            <div class="btn-group">
+              <a class="btn btn-primary" id="cartButton" href="carrito.html">
+                <i class="fas fa-shopping-cart"></i> Carrito
+                <span id="cartItemCount" class="badge badge-light">0</span>
+              </a>
+              <a class="btn btn-primary" id="loginButton" href="login.html">
+                <i class="fas fa-user-circle"></i> Iniciar Sesión
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="container py-4">
+      <h1>Contacto</h1>
+      <form>
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+        </div>
+
+        <div class="form-group">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico">
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="3" placeholder="Ingrese su mensaje"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="reset" class="btn btn-danger">Cancelar</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer bg-light py-3">
+    <div class="container text-center">
+      <p>
+        <strong>Vapers Online</strong> &copy; 2023. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+  <script src="optimization.js"></script> 
+</body>
+
+</html>

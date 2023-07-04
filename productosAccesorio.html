@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vapers Online - Tu tienda de Vapers</title>
+  <link rel="icon" href="images/icono.jpg">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="navbar-collapse" id="navbarItems">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+
+        <div class="navbar-nav ml-auto">
+          <div class="nav-item">
+            <div class="btn-group">
+              <a class="btn btn-primary" id="cartButton" href="carrito.html">
+                <i class="fas fa-shopping-cart"></i> Carrito
+                <span id="cartItemCount" class="badge badge-light">0</span>
+              </a>
+              <a class="btn btn-primary" id="loginButton" href="login.html">
+                <i class="fas fa-user-circle"></i> Iniciar Sesión
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="my-4">
+    <div class="container">
+      <h1 class="text-center">Productos/Accesorios</h1>
+
+      <div class="btn-group mt-4 mb-4 d-flex flex-wrap">
+        <a class="btn btn-primary mr-1 mb-1" href="productos.html">Todos</a>
+        <a class="btn btn-outline-primary mr-1 mb-1" href="productosPod.html">Pods</a>
+        <a class="btn btn-outline-primary mr-1 mb-1" href="productosElectronicos.html">Vapers Electronicos</a>
+        <a class="btn btn-outline-primary mr-1 mb-1" href="productosModsInicio.html">Mods de inicio</a>
+        <a class="btn btn-outline-primary mr-1 mb-1" href="productosRta.html">Rta</a>
+        <a class="btn btn-outline-primary mr-1 mb-1" href="productosRda.html">Rda</a>
+        <a class="btn btn-outline-primary mr-1 mb-1" href="productosRdta.html">Rdta</a>
+        <a class="btn btn-outline-primary mb-1" href="productosAccesorio.html">Accesorios</a>
+      </div>
+
+      <div class="row">
+        <!-- Producto 1 -->
+        <div class="col-sm-6 col-lg-3 mb-4">
+          <div class="card text-center h-100">
+            <img src="images/Accesorios/a1.jpg" class="card-img-top img-fit" alt="Producto 1">
+            <div class="card-body">
+              <h5 class="card-title">Vaper Modelo 1</h5>
+              <p class="card-text">$49.99</p>
+              <button class="btn btn-primary">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 2 -->
+        <div class="col-sm-6 col-lg-3 mb-4">
+          <div class="card text-center h-100">
+            <img src="images/Accesorios/a2.png" class="card-img-top img-fit" alt="Producto 2">
+            <div class="card-body">
+              <h5 class="card-title">Vaper Modelo 2</h5>
+              <p class="card-text">$59.99</p>
+              <button class="btn btn-primary">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 3 -->
+        <div class="col-sm-6 col-lg-3 mb-4">
+          <div class="card text-center h-100">
+            <img src="images/Accesorios/a3.webp" class="card-img-top img-fit" alt="Producto 3">
+            <div class="card-body">
+              <h5 class="card-title">Vaper Modelo 3</h5>
+              <p class="card-text">$69.99</p>
+              <button class="btn btn-primary">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 4 -->
+        <div class="col-sm-6 col-lg-3 mb-4">
+          <div class="card text-center h-100">
+            <img src="images/Accesorios/a4.jpeg" class="card-img-top img-fit" alt="Producto 4">
+            <div class="card-body">
+              <h5 class="card-title">Vaper Modelo 4</h5>
+              <p class="card-text">$79.99</p>
+              <button class="btn btn-primary">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer bg-light py-3">
+    <div class="container text-center">
+      <p>
+        <strong>Vapers Online</strong> &copy; 2023. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+  <script src="optimization.js"></script> 
+</body>
+
+</html>

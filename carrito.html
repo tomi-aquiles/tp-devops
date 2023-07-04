@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Formulario de Compra</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+  <section class="my-4">
+    <div class="container">
+      <a href="index.html" class="btn btn-outline-danger mb-3"><i class="fas fa-arrow-left"></i></a>
+      <h1 class="mb-4">Formulario de Compra</h1>
+      <form>
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Nombre">
+        </div>
+        <div class="form-group">
+          <label for="address">Dirección de Envío</label>
+          <input type="text" class="form-control" id="address" placeholder="Dirección">
+        </div>
+        <div class="form-group">
+          <label for="city">Ciudad</label>
+          <input type="text" class="form-control" id="city" placeholder="Ciudad">
+        </div>
+        <div class="form-group">
+          <label for="country">País</label>
+          <select class="form-control" id="country">
+            <option>Seleccionar país</option>
+            <option>Estados Unidos</option>
+            <option>Canadá</option>
+            <option>México</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="payment">Método de Pago</label>
+          <select class="form-control" id="payment">
+            <option>Seleccionar método de pago</option>
+            <option>Tarjeta de crédito</option>
+            <option>PayPal</option>
+            <option>Crypto</option>
+            <option>Otro Metódo</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="cardNumber">Número de Tarjeta</label>
+          <input type="text" class="form-control" id="cardNumber" placeholder="Número de Tarjeta">
+        </div>
+        <div class="form-group">
+          <label for="expiryDate">Fecha de Vencimiento</label>
+          <input type="text" class="form-control" id="expiryDate" placeholder="MM/AA">
+        </div>
+        <div class="form-group">
+          <label for="securityCode">Código de Seguridad</label>
+          <input type="text" class="form-control" id="securityCode" placeholder="Código de Seguridad">
+        </div>
+        <div class="form-group">
+          <a class="btn btn-outline-primary mr-1" href="compraRealizada.html">Realizar Compra</a>
+        </div>
+      </form>
+    </div>
+  </section>
+  
+  <footer class="footer bg-light py-3">
+    <div class="container text-center">
+      <p>
+        <strong>Vapers Online</strong> &copy; 2023. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+  <script src="optimization.js"></script> 
+</body>
+
+</html>
