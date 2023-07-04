@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vapers Online - Tu tienda de Vapers</title>
+  <link rel="icon" href="images/icono.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+  <header>
+    <nav class="navbar is-primary " role="navigation" aria-label="main navigation">
+      <div id="navbarItems" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">Inicio</a>
+          <a class="navbar-item" href="productos.html">Productos</a>
+          <a class="navbar-item" href="contacto.html">Contacto</a>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <button class="button is-primary" id="cartButton">
+                <a href="carrito.html" style="color: inherit; text-decoration: none;">
+                  <span class="icon">
+                    <i class="fas fa-shopping-cart"></i>
+                  </span>
+                  <span>Carrito</span>
+                  <span id="cartItemCount" class="tag is-primary">0</span>
+                </a>
+              </button>
+              <button class="button is-primary" id="loginButton">
+                <span class="icon">
+                  <i class="fas fa-user-circle"></i>
+                </span>
+                <a href="login.html" style="color: inherit; text-decoration: none;">Iniciar Sesión</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="title">Productos/Rda</h1>
+
+      <nav class="category-menu">
+        <a class="button is-primary mr-1" href="productos.html">Todos</a>
+        <a class="button is-primary is-outlined mr-1" href="productosPod.html">Pods</a>
+        <a class="button is-primary is-outlined mr-1" href="productosElectronicos.html">Vapers Electronicos</a>
+        <a class="button is-primary is-outlined mr-1" href="productosModsInicio.html">Mods de inicio</a>
+        <a class="button is-primary is-outlined mr-1" href="productosRta.html">Rta</a>
+        <a class="button is-primary is-outlined mr-1" href="productosRda.html">Rda</a>
+        <a class="button is-primary is-outlined mr-1" href="productosRdta.html">Rdta</a>
+        <a class="button is-primary is-outlined" href="productosAccesorio.html">Accesorios</a>
+    </nav>
+    
+
+      <section class="product-grid">
+        <!-- Producto 1 -->
+        <div class="product-card">
+          <img src="images/Rda/r1.webp" alt="Producto 1">
+          <h3>Vaper Modelo 1</h3>
+          <p>$49.99</p>
+          <button class="button is-primary add-to-cart-button">
+            <span class="icon">
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/Rda/r2.webp" alt="Producto 1">
+          <h3>Vaper Modelo 1</h3>
+          <p>$49.99</p>
+          <button class="button is-primary add-to-cart-button">
+            <span class="icon">
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/Rda/r3.jpg" alt="Producto 1">
+          <h3>Vaper Modelo 1</h3>
+          <p>$49.99</p>
+          <button class="button is-primary add-to-cart-button">
+            <span class="icon">
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/Rda/r4.jpeg" alt="Producto 1">
+          <h3>Vaper Modelo 1</h3>
+          <p>$49.99</p>
+          <button class="button is-primary add-to-cart-button">
+            <span class="icon">
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+        </div>
+        
+        <!-- Resto del código... -->
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Vapers Online</strong> &copy; 2023. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+  <script src="scripts.js"></script> 
+</body>
+
+</html>
