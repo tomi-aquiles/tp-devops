@@ -1,6 +1,12 @@
 # tp-devops
+¡Hola!
+Nosotros somos GitGroup, un grupo compuesto por:
+Alvarez, Tomas Aquiles
+Bringas, Delfina
+Salzoto, Lucas
+Hildmann, Valentin
 En este proyecto crearemos una pagina web para un comercio dedicado a la venta de vapers.
-Para desarrollar la pagina web utilizaremos los frameworks Bulma y Bootstrap para aguilizar el desarrollo.
+Para desarrollar la pagina web utilizaremos los frameworks Bulma y Bootstrap para aguilizar el desarrollo, HTML para organizar el esqueleto de la pagina y por ultimo, JS para agregar optimizacion.
 ######################
 Para clonar el repositorio, necesitarás tener instalado Git en tu máquina. A continuación, te mostraremos los pasos para clonar un repositorio utilizando la línea de comandos:
 1. Abre una terminal o línea de comandos en tu sistema operativo.
