@@ -1,9 +1,8 @@
 # tp-devops
 En este proyecto crearemos una pagina web para un comercio dedicado a la venta de vapers.
 Para desarrollar la pagina web utilizaremos los frameworks Bulma y Bootstrap para aguilizar el desarrollo.
-
-¡Claro! Para clonar el repositorio, necesitarás tener instalado Git en tu máquina. A continuación, te mostraremos los pasos para clonar un repositorio utilizando la línea de comandos:
-
+######################
+Para clonar el repositorio, necesitarás tener instalado Git en tu máquina. A continuación, te mostraremos los pasos para clonar un repositorio utilizando la línea de comandos:
 1. Abre una terminal o línea de comandos en tu sistema operativo.
 2. Navega hasta el directorio donde deseas clonar el repositorio. Puedes utilizar el comando `cd` para cambiar de directorio.
 3. En la terminal, utiliza el siguiente comando para clonar el repositorio:
