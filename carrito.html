@@ -10,7 +10,12 @@
 <body>
   <section class="section">
     <div class="container">
-      <a href="index.html" class="button is-danger is-outlined"><i class="fas fa-arrow-left"></i></a>
+      
+      <button class="button is-primary is-outline is-text back-button" >
+        <span>
+          <i class="fas fa-arrow-left"></i>
+        </span>
+      </button>
       <h1 class="title">Formulario de Compra</h1>
       <form>
         <div class="field">
@@ -52,8 +57,6 @@
                 <option>Seleccionar método de pago</option>
                 <option>Tarjeta de crédito</option>
                 <option>PayPal</option>
-                <option>Crypto</option>
-                <option>Otro Metódo</option>
               </select>
             </div>
           </div>
@@ -78,7 +81,7 @@
         </div>
         <div class="field">
           <div class="control">
-            <a class="button is-primary is-outlined mr-1" href="compraRealizada.html">Realizar Compra</a>
+            <button class="button is-primary" type="submit">Realizar Compra</button>
           </div>
         </div>
       </form>
